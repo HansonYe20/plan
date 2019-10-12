@@ -3,6 +3,7 @@
 ## b.charlse
 ## c.postman
 ## d.sourceTree
+## e.vscode
 ---
 ## 2.OS
 ### unix
