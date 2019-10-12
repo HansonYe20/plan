@@ -50,7 +50,7 @@
 # 不常用但重要的命令
 - 账户锁住: rm -f ./.git/index.lock
 - 回滚: ...
-- // todo
+- **[TODO]**
 
 
 # 视图化工具
@@ -60,10 +60,11 @@
 1. [vscode同步设置][settings sync](仅针对macOs)
   - upload: Shift + Option + U
   - download: Shift + Option + D
-2. GitLens
+2. [GitLens][gitlens]
 
 [gitSSH]: https://github.com/settings/keys 'SSH keys'
 [ruanyifeng]: http://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html 'ruanyifeng'
 [markdown1]: https://www.markdown.cn/ 'markdown1'
 [markdown2]: https://guo365.github.io/study/Markdown.html#41 'markdown2'
 [settings sync]: https://github.com/shanalikhan/code-settings-sync 'settings sync'
+[gitlens]: https://github.com/eamodio/vscode-gitlens 'gitlens'
