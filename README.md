@@ -30,7 +30,16 @@
 14. restful
 15. 字体库
 16. ......
-
+17. charles map remote 仅仅成功了一次, map local 还未成功, 待解决
+18. 内网穿透
+19. 循环依赖
+20. 使用github源码安装, 比如https://github.com/nvm-sh/nvm
+21. vim语法
+22. os, 命令, 日志查看, 远程连接等...权限等
+23. 前后端分离的服务框架/resfull/
+24. 兼容性, 全面屏
+25. 开发一个util, 且link, 发布在npmjs上, 且中间过程记录成文档
+26. 开发一个录屏软件
 
 # 备忘: marked 以及js读取文件
 fs 的使用场景
@@ -41,3 +50,5 @@ test create new branch
 
 task:
 1.webpack 编译筛选文件, cli开发并发布, 实现mkt-doc的轻量发布, 减少发布流程
+
+

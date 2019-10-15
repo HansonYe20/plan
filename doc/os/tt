@@ -1,0 +1,4 @@
+test hard/soft link
+https://www.ibm.com/developerworks/cn/linux/l-cn-hardandsymb-links/index.html#fig2
+inode 查看 ls -iF
+不同文件夹下的展示类容不同, 根节点和项目节点
