@@ -62,6 +62,12 @@
   - download: Shift + Option + D
 2. [GitLens][gitlens]
 
+# .gitignore语法
+  - **[TODO]**
+
+# git相关书籍
+- Version Control with Git
+
 [gitSSH]: https://github.com/settings/keys 'SSH keys'
 [ruanyifeng]: http://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html 'ruanyifeng'
 [markdown1]: https://www.markdown.cn/ 'markdown1'
