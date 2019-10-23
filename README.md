@@ -5,6 +5,8 @@
 ## d.sourceTree
 ## e.vscode
 ## f.xmind
+## g.homebrew
+- 
 ---
 ## 2.OS
 ### unix
@@ -44,6 +46,9 @@
 28. **区分环境**
 29. Mocha
 30. Hook
+31. **多用户会话,以及夸页面的值传递探索**
+32. [brew/brew cask区别](https://www.zhihu.com/question/22624898)
+33. mongoDB
 
 
 # 备忘: marked 以及js读取文件
