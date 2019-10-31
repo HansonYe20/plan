@@ -49,6 +49,11 @@
 31. **多用户会话,以及夸页面的值传递探索**
 32. [brew/brew cask区别](https://www.zhihu.com/question/22624898)
 33. mongoDB
+34. 跳动轨迹
+35. emoji表情的处理
+36. node require, import
+37. buddle.js是js文件, 却包括html, 浏览器解析方式
+38. lodash
 
 
 # 备忘: marked 以及js读取文件
