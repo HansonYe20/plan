@@ -1,4 +1,4 @@
-# 1.tools
+# 1.tool
 ## a.git
 ## b.charlse
 ## c.postman
@@ -54,6 +54,14 @@
 36. node require, import
 37. buddle.js是js文件, 却包括html, 浏览器解析方式
 38. lodash
+39. js 调用摄像头
+40. 
+``` <script>
+  (function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
+</script>
+```
+41. 安卓调试
+42. MobX
 
 
 # 备忘: marked 以及js读取文件
@@ -66,4 +74,18 @@ test create new branch
 task:
 1.webpack 编译筛选文件, cli开发并发布, 实现mkt-doc的轻量发布, 减少发布流程
 
+todo: right now
+1. 开发cli工具
+2. 前置任务, 学习相关unix相关知识
 
+
+开发
+调试
+脚手架
+lint
+发布
+自动跟新cli版本
+
+一套代码, 编译出来多端
+
+mbox
