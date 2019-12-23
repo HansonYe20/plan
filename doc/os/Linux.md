@@ -89,6 +89,12 @@
     ssh test@10.100.172.133
     cd /log/java/biz-mkt-activity/log
     tail -f tail -f biz-mkt-activity-srv.log
+  - fdisk
+  - df -h
+  - chmod
+  - chown
+  - who
+    
 
     <!-- + 压缩
     - 第一步 压缩成.zip文件 大小不会变, 且生成.zip文件

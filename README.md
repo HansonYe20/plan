@@ -61,8 +61,9 @@
 </script>
 ```
 41. 安卓调试
-42. MobX
-
+42. MobX, https://cn.mobx.js.org/
+43. clientHeight、offsetHeight、scrollHeight、offsetTop、scrollTop
+44. transition 深入了解
 
 # 备忘: marked 以及js读取文件
 fs 的使用场景
