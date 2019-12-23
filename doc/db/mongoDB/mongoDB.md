@@ -19,8 +19,12 @@
 #### (1)安装过程中出现的问题:
 + Updating Homebrew...
   - ctrl + c 一次, 然后就开始安装目标软件, 治标不治本
-  - 更改homebrew镜像源, 比如阿里巴巴
-  - 关闭homebrew自动更新
+  + 更改homebrew镜像源, 比如阿里巴巴, [参考链接][homebrewMirror]
+    - 替换成阿里巴巴的 brew.git 仓库地址: 
+      > cd "$(brew --repo)"
+
+      > git remote set-url origin https://mirrors.aliyun.com/homebrew/brew.git 
+  + 关闭homebrew自动更新
     - code ~/.bash_profile
     - ```export HOMEBREW_NO_AUTO_UPDATE=true```
 + 直接brew search mongodb, 无法找到低版本
@@ -98,3 +102,4 @@
 [download]: https://www.mongodb.com/download-center/community '下载地址'
 [compassdownload]: https://www.mongodb.com/download-center/compass?jmp=docs 'Compass下载地址'
 [compassIndexImg]: ./mongo-compass.png 'compassGUI首页'
+[homebrewMirror]: https://www.cnblogs.com/testlife007/p/10923243.html '镜像更换'
