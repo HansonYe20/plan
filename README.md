@@ -64,13 +64,10 @@
 42. MobX, https://cn.mobx.js.org/
 43. clientHeight、offsetHeight、scrollHeight、offsetTop、scrollTop
 44. transition 深入了解
+45. Electron
+46. Redux
+47. webpack 热更新
 
-# 备忘: marked 以及js读取文件
-fs 的使用场景
-fs fs-extra区别 ==>>>
-node 用于服务端的思考
-
-test create new branch
 
 task:
 1.webpack 编译筛选文件, cli开发并发布, 实现mkt-doc的轻量发布, 减少发布流程
@@ -86,7 +83,10 @@ todo: right now
 lint
 发布
 自动跟新cli版本
+cli 2.0, 要包含vue/react/angular/wxapp...
 
 一套代码, 编译出来多端
 
 mbox
+
+
