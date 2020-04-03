@@ -70,7 +70,8 @@
   - others...
 
 ## 操作
-  - 如果使用compass, 看官方文档吧
+  - 如果使用compass, 看官方文档吧,
+    - filter: 输入 { name: "123" }, 而不是像mysql形式的 name="123"
   + Mongo shell
     启动服务后, 打开mongo shell, 开始正式操作数据库
     * 本地连接:
@@ -89,8 +90,16 @@
       - db.getCollection("mytable").find()
       - CRUD 自行看官网
     * 多行操作, 括号必须成对, `()[]{}`, 竟然还可以写代码...
-
-
+  + mongoose 由于实际需要, 包括实际上的问题(解决事务, 联表查询, 导出连接实例等), 都有成熟的解决方案, 所以使用了这个第三方库
+    - [中文文档地址][mongooseDoc]
+    - 相关概念
+      - schema
+        - 在 mongoose 中，所有的东西都来源于一个 schema，每个schema 映射了一个 MongoDB 的集合，它定义了这个集合中的文档的骨架;
+        - model 是我们构造 document 的 Class
+      - model: 一个文件的构造器，通过编译schema得到，一个model的实例就是一个文件，model负责从 MongoDB 数据库中创建和读取文档。
+    - 事务(transactions):
+      - [参考链接][mongooseTransactions]
+      - To use transactions with Mongoose, you need mongoose >= *5.2.0*.
 
 ## 部署
   *******[TODO]*******
@@ -103,3 +112,5 @@
 [compassdownload]: https://www.mongodb.com/download-center/compass?jmp=docs 'Compass下载地址'
 [compassIndexImg]: ./mongo-compass.png 'compassGUI首页'
 [homebrewMirror]: https://www.cnblogs.com/testlife007/p/10923243.html '镜像更换'
+[mongooseDoc]: https://mongoosedoc.top/docs/index.html 'mongoose中文文档'
+[mongooseTransactions]: http://thecodebarbarian.com/a-node-js-perspective-on-mongodb-4-transactions.html 'mongooseTransactions'
